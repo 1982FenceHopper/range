@@ -1,0 +1,29 @@
+{
+  "name": "range",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "clamp",
+    "range",
+    "ranged clamp",
+    "clamp range"
+  ],
+  "author": "1982fencehopper",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1982FenceHopper/range.git"
+  },
+  "description": "A simple range clamp library"
+}
